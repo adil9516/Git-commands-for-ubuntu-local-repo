@@ -1,0 +1,22 @@
+# To initialise git local repo
+git init repo-name
+
+# Detup configuration of github user
+git config --global user.name "user-name"
+git config --global user.email "username@gmail.com"
+
+# To create readme and other files
+vi readme
+get add readme
+
+vi otherfile
+get add otherfile
+
+# To commit using a message
+git commit -m "message"
+
+# To connect to github server
+git remote add origin https://github.com/your-repo
+
+# To push contents from local repo to server 
+git push -u orgin master
