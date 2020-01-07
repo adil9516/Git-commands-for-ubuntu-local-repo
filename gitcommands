@@ -20,3 +20,10 @@ git remote add origin https://github.com/your-repo
 
 # To push contents from local repo to server 
 git push -u orgin master
+
+# To clone a git environment
+git clone https://github.com/repo
+
+# When uploading to existing origin
+git remote add github https://github.com/repo.git
+
