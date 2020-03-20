@@ -7,10 +7,10 @@ git config --global user.email "username@gmail.com"
 
 # To create readme and other files
 vi readme
-get add readme
+git add readme
 
 vi otherfile
-get add otherfile
+git add otherfile
 
 # To commit using a message
 git commit -m "message"
